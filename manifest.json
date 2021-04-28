@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "Charusat collage Launcher",
+    "description": "Quick Launch Charusat Media",
+    "version": "1.0.0",
+    "icons": { "150": "images/icon128.png" },
+
+    "browser_action": {
+        "default_icon": "images/mainicon.png",
+        "default_popup": "final.html"
+    },
+    "permissions": [
+        "activeTab"
+    ]
+}
